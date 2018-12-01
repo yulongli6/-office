@@ -21,7 +21,7 @@ public:
         Sum::Reset();
         Sum* p = new Sum[n];
         delete[] p;
-        p = nullptr;
+        p = NULL;
         return Sum::Getsum();
     }
 private:
